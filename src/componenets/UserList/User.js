@@ -5,8 +5,6 @@ import classes from "./User.module.css";
 const User = (props) => {
   const navigate = useNavigate();
 
-  // each user card in user list
-
   return (
     <li
       className={classes.card}
