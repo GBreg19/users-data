@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/%7Busers-list%7D/static/css/main.f0f7b15e.css",
+    "main.js": "/%7Busers-list%7D/static/js/main.105185b2.js",
+    "index.html": "/%7Busers-list%7D/index.html",
+    "main.f0f7b15e.css.map": "/%7Busers-list%7D/static/css/main.f0f7b15e.css.map",
+    "main.105185b2.js.map": "/%7Busers-list%7D/static/js/main.105185b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0f7b15e.css",
+    "static/js/main.105185b2.js"
+  ]
+}
