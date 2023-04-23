@@ -1,0 +1,11 @@
+.user_container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.u_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

@@ -1,0 +1,36 @@
+.user_card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.user_card ul li {
+  list-style: none;
+}
+.user_card ul li span {
+  text-decoration: underline;
+}
+
+.user_img {
+  flex-basis: 10%;
+}
+
+.user_img img {
+  height: 200px;
+}
+
+.left_fieldset {
+  padding: 15px;
+  margin: 0 5px 0 20px;
+  flex-basis: 70%;
+}
+
+.left_fieldset ul {
+  margin-top: 15px;
+}
+
+.right_fieldset {
+  flex-basis: 20%;
+  padding: 20px 10px;
+}

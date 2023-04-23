@@ -1,0 +1,20 @@
+.card {
+  list-style: none;
+  border: solid 1px rgb(187, 187, 187);
+  width: 23%;
+  cursor: pointer;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card span {
+  display: block;
+  margin: 0 10px;
+  line-height: 20px;
+}
+
+.card span h1 {
+  font-size: 16px;
+}

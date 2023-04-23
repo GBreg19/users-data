@@ -1,0 +1,10 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.profile {
+  border: 1px gray solid;
+  padding: 0 10px;
+}
