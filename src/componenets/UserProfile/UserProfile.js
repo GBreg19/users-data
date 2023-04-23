@@ -10,37 +10,13 @@ import classes from "./UserProfile.module.css";
 
 const UserProfile = () => {
   const {
-    scrollListener,
-    page,
     user,
     isLoading,
     error,
     friendList,
-    fetchUserData,
     breadCrumbs,
   } = useUser();
 
-  const { userId } = useParams();
-
-  // fetches user profile card and user friend list
-
-  useEffect(() => {
-    fetchUserData("user", userId);
-  }, [userId]);
-
-  useEffect(() => {
-    fetchUserData("friends", userId);
-  }, [page]);
-
-  useEffect(() => {
-    fetchUserData("friends", userId, "refresh");
-  }, [userId]);
-
-  useEffect(() => {
-    scrollListener();
-  }, [friendList]);
-
-  // user profile page
 
   return (
     <Container profile={true}>
@@ -61,9 +37,6 @@ const UserProfile = () => {
               />
             );
           })}
-        </div>
-        <div>
-          <h2>Friends: </h2>
         </div>
       </div>
       <ul className={classes.u_list}>

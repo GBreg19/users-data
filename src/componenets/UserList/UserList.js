@@ -17,8 +17,6 @@ const UserList = () => {
     scrollListener();
   }, [users]);
 
-  // user list on main page
-
   return (
     <Container>
       <ul className={classes.u_list}>
