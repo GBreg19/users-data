@@ -1,5 +1,5 @@
 {
-  "homepage": "http://{gbreg19}.github.io/{users-list}",
+  "homepage": "http://gbreg19.github.io/{users-list}",
   "name": "users-list",
   "version": "0.1.0",
   "private": true,
