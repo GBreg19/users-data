@@ -10,6 +10,10 @@ const User = (props) => {
       className={classes.card}
       onClick={() => navigate(`/user/${props.userData.id}`)}
     >
+      <img
+        src={`${props.userData.imageUrl}?v=${props.userData.id}`}
+        alt={props.userData.name}
+      />
       <span>
         <h1>
           {props.userData.prefix} {props.userData.name}{" "}
