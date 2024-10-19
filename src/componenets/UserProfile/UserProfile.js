@@ -38,6 +38,9 @@ const UserProfile = () => {
             );
           })}
         </div>
+        <div>
+          <h2>Friends: </h2>
+        </div>
       </div>
       <ul className={classes.u_list}>
         {friendList.flat().map((user) => {
