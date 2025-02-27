@@ -12,7 +12,6 @@ const useUser = () => {
   const [breadCrumbs, setBreadCrumbs] = useState([]);
 
   // infinite scroll
-  // arali
 
   const onScroll = () => {
     const scrollTop = document.documentElement.scrollTop;
